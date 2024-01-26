@@ -252,7 +252,6 @@ GameObject:
   - component: {fileID: 205189983}
   - component: {fileID: 205189985}
   - component: {fileID: 205189984}
-  - component: {fileID: 205189986}
   m_Layer: 5
   m_Name: Paragraph
   m_TagString: Untagged
@@ -395,22 +394,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205189982}
   m_CullTransparentMesh: 1
---- !u!114 &205189986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205189982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cd27b3dc8603ab41b439bb55ae0db80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayBeforeStart: 0
-  timeBtwChars: 0.01
-  leadingChar: 
-  leadingCharBeforeDelay: 0
 --- !u!1 &682392770
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4779d5345a47d1a4d821b00ee631e4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Scene2
+  sceneName: Scene5
 --- !u!114 &1749682045
 MonoBehaviour:
   m_ObjectHideFlags: 0
