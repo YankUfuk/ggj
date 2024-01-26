@@ -299,25 +299,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "OYUN HAKKINDA\r\nOyunumuza kat\u0131ld\u0131\u011F\u0131n\u0131z i\xE7in
-    te\u015Fekk\xFCr ederiz. \u015Eimdi, sizi etkileyici bir maceraya davet ediyoruz.
-    Ana karakterimiz, kimli\u011Fi belirsiz, psikopat bir ekip taraf\u0131ndan ka\xE7\u0131r\u0131l\u0131yor.
-    Ancak, bu ekip bize kurtulu\u015Fun sadece bir dizi oyun oynamaktan ge\xE7ti\u011Fini
-    s\xF6yl\xFCyor.\r\n\r\nOyun s\u0131ras\u0131nda bize baz\u0131 ipu\xE7lar\u0131
-    verebilirler, ancak bu ipu\xE7lar\u0131n\u0131n her zaman do\u011Fru olmad\u0131\u011F\u0131n\u0131
-    unutmamak \xF6nemli. Her oyunun bir sonucu vard\u0131r ve bu sonuca ula\u015Fmak
-    i\xE7in ya \xF6l\xFCmle y\xFCzle\u015Fece\u011Fiz ya da son oyunu ba\u015Far\u0131yla
-    tamamlayana kadar m\xFCcadele edece\u011Fiz.\r\n\r\nSon oyuna geldi\u011Fimizde,
-    ba\u015Far\u0131yla a\u015Farsak bize kurtulu\u015F bileti verilecek. Ancak,
-    bu bileti elde etmek hi\xE7 de kolay olmayacak. S\xFCr\xFCkleyici bulmacalar,
-    zorlu g\xF6revler ve belirsizlikle dolu bir yolculuk bizi bekliyor.\r\n\r\nOyunun
-    gizemini \xE7\xF6zerken dikkatli olmal\u0131, ipu\xE7lar\u0131n\u0131 do\u011Fru
-    bir \u015Fekilde de\u011Ferlendirmeli ve her zorlu\u011Fun \xFCstesinden gelmeye
-    \xE7al\u0131\u015Fmal\u0131y\u0131z. Unutmay\u0131n, her se\xE7imimiz sonu\xE7lar\u0131
-    etkileyecek ve bizi ya \xF6zg\xFCrl\xFC\u011Fe kavu\u015Fturacak ya da karanl\u0131k
-    bir kaderle y\xFCzle\u015Ftirecek.\r\n\r\nOyunumuza ho\u015F geldiniz ve unutmay\u0131n,
-    ger\xE7ek kurtulu\u015F sadece son oyunu ba\u015Far\u0131yla tamamlayana verilecek!
-    \u0130yi \u015Fanslar!"
+  m_text: final cevap
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
   m_sharedMaterial: {fileID: -6348833715751618265, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
@@ -427,10 +409,10 @@ RectTransform:
   m_Father: {fileID: 1932952736}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 587.5, y: 0}
-  m_SizeDelta: {x: 1175, y: 644}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682392772
 MonoBehaviour:
@@ -604,82 +586,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707107168}
-  m_CullTransparentMesh: 1
---- !u!1 &1465704120
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1465704121}
-  - component: {fileID: 1465704123}
-  - component: {fileID: 1465704122}
-  m_Layer: 5
-  m_Name: Character
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1465704121
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465704120}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.7116, y: 5.7116, z: 5.7116}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1932952736}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -211, y: 57}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1465704122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465704120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f9b23f37e34659c408704e515032d059, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1465704123
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465704120}
   m_CullTransparentMesh: 1
 --- !u!1 &1651156619
 GameObject:
@@ -992,7 +898,6 @@ RectTransform:
   - {fileID: 682392771}
   - {fileID: 205189983}
   - {fileID: 1749682043}
-  - {fileID: 1465704121}
   - {fileID: 2045611039}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1033,11 +938,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1932952736}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -191, y: 0}
+  m_AnchoredPosition: {x: -364, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2045611040
