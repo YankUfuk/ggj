@@ -277,7 +277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 587.5, y: 0}
+  m_AnchoredPosition: {x: 621, y: 149}
   m_SizeDelta: {x: 1175, y: 644}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &205189984
@@ -300,17 +300,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "OYUN 1\r\n\r\nMERHABA, \xD6NCEK\u0130 G\u0130B\u0130 B\u0130ZDEN KORKMANA
-    GEREK YOK \xC7\xDCNK\xDC SEN\u0130NLE GAYET E\u011ELENCEL\u0130 B\u0130R OYUN
-    OYNAYACA\u011EIZ. KURALLARI ZATEN B\u0130L\u0130YORSUN, UNUTMA KURTULU\u015EUN
-    \u0130\xC7\u0130N \xD6DEMEN GEREKEN UFAK B\u0130R BEDEL VAR. BOL \u015EANS.\r\n\r\n\xD6N\xDCNDEK\u0130
-    4 BARDA\u011EIN 3'\xDCNDE SADECE VE SADECE SU VAR, ANCAK 1 TANES\u0130NDE SAN\u0130YELER
-    \u0130\xC7\u0130NDE G\xD6Z\xDCNE PERDE \u0130ND\u0130RECEK B\u0130R ZEH\u0130R
-    BULUNUYOR. SE\xC7, BE\u011EEN, AL AHBAP, HEPS\u0130 M\xDCESSESEDEN.\r\n\r\n\u0130PUCU
-    1: GE\xC7EN ARKADA\u015ELARIM BANA YE\u015E\u0130L B\u0130R KAZAK ALDILAR VE
-    B\u0130R ARKADA\u015EIM BANA \xC7\u0130MENE BENZED\u0130\u011E\u0130M\u0130 S\xD6YLED\u0130.
-    KEND\u0130S\u0130 \u015EU AN YE\u015E\u0130L KAZA\u011EIMLA B\u0130RL\u0130KTE
-    YER ALTI DA D\u0130NLEN\u0130YOR."
+  m_text: "Oyun 1\r\n\r\nMerhaba, \xF6nceki gibi bizden korkmana gerek yok \xE7\xFCnk\xFC
+    seninle gayet e\u011Flenceli bir oyun oynayaca\u011F\u0131z. Kurallar\u0131 zaten
+    biliyorsun, unutma kurtulu\u015Fun i\xE7in \xF6demen gereken ufak bir bedel var.
+    Sana daha \xF6nce bahsetti\u011Fim gibi bu oyundan ba\u015Far\u0131l\u0131 \xE7\u0131kman
+    laz\u0131m dostum. Asl\u0131nda hepsi ufak bir bilmece ama yine de \u015Fans\u0131n
+    olmad\u0131\u011F\u0131 bir yerde kaderden bahsedemeyiz. :)\r\n\r\n\xD6n\xFCndeki
+    4 barda\u011F\u0131n 3'\xFCnde sadece ve sadece su var, ancak 1 tanesinde saniyeler
+    i\xE7inde g\xF6z\xFCne perde indirecek bir zehir bulunuyor. Se\xE7, be\u011Fen,
+    al ahbap, hepsi m\xFCesseseden.\r\n\n\n\n\r\n\u0130pucu 1: Ge\xE7en arkada\u015Flar\u0131m
+    bana do\u011Fum g\xFCn\xFCmde ye\u015Fil bir kazak ald\u0131lar ve bir arkada\u015F\u0131m
+    bana kaza\u011F\u0131 giydi\u011Fimde \xE7imene benzedi\u011Fimi s\xF6yledi.
+    Kendisi \u015Fu an ye\u015Fil kaza\u011F\u0131mla birlikte yer alt\u0131nda dinleniyor.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
   m_sharedMaterial: {fileID: -6348833715751618265, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
@@ -337,14 +338,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -373,7 +374,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 26.802124, y: 61.979614, z: 407.0559, w: 25.126892}
+  m_margin: {x: 26.802124, y: 61.979614, z: 46.654785, w: -203.2461}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -576,7 +577,7 @@ RectTransform:
   m_GameObject: {fileID: 1749682042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3183, y: 4.037689, z: 1.3183}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1932952736}
@@ -584,7 +585,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 387, y: -260}
+  m_AnchoredPosition: {x: 744, y: -431}
   m_SizeDelta: {x: 178.2808, y: 46.1301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1749682044
@@ -809,6 +810,7 @@ GameObject:
   - component: {fileID: 2045611039}
   - component: {fileID: 2045611041}
   - component: {fileID: 2045611040}
+  - component: {fileID: 2045611042}
   m_Layer: 5
   m_Name: Frame
   m_TagString: Untagged
@@ -833,8 +835,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -191, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -223, y: 78}
+  m_SizeDelta: {x: 32, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2045611040
 MonoBehaviour:
@@ -856,7 +858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5cf1629148782ea43b656e78844324b9, type: 3}
+  m_Sprite: {fileID: 1042092784, guid: e6bcc7736fa5b974daf546f4ac16197a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -874,6 +876,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045611038}
   m_CullTransparentMesh: 1
+--- !u!95 &2045611042
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045611038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4b50d095bd8f18149b111c6af6cdd99f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2063081318
 GameObject:
   m_ObjectHideFlags: 0
