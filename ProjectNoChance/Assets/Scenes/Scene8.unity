@@ -300,33 +300,44 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "FINAL OYUNU\r\nDOSTUM GERCEKTEN BURAYA KADAR DAYANABILMENI  BEKLEMIYORDUM
-    SAKA SAKA SANAN INANCIM TAMDI SADECE SENARYO GEREGI BU APTAL REPLIGI SOYLEMEM
-    LAZIM KUSURA BAKMA.\r\nBENCE SU ZAMANA KADAR SENLE FAZLASIYLA IYI ANLASTIK. DOSTUM
-    EGER KURTULURSAN BENI UNUTMA. SENINLE BERABER SON OYUNA KADAR GELDIK. DAHA DOGRUSU
-    SEN GELDIN BEN MAALESEF HERGUN BU SURECI TEKRARDAN ANLATIYORUM. \r\n\r\nBENIM
-    ADIMA UZULMENE GEREK YOK MAASI COK GUZEL VE SIRKET BENI YILDA 1 KEZ 1 HAFTALIGINA
-    YUNAN ADALARINA TATILE GONDERIYOR . BENCE COGU ISTEN GUZEL BIR ISIM VAR. BIRDE
-    MASA BASINDA OYUN GELISTIRDIGINI DUSUNSENE BOYLE MANYAK BIR KARAKTERI DUSUN TASARLA
-    SENARYOSUNU YAZ ONDAN SONRA BIRDE BUNLARI INSANLARA YAYINLA BENCE COK ZOR IS.
-    NEYSE UMARIM DAHA IYI BIR ISIN VARDIR. YOKSADA UZULMENE GEREK YOK YANLIS SECENEGI
-    SECMEN YETERLI. \U0001F642\r\nTAMAM DOSTUM SAKIN OL UFAK BIR SAKA. \r\n\r\nGELDIK
-    SON OYUNA UMARIM SU ANA KADAR DEDIKLERIMI DIKKATLICE OKUMUSSUNDUR. CUNKU BUNU
-    SANA SUAN SOYLUYORUM AMA BU OYUNUN CEVABI O CUMLELER ARASINDA GIZLIYDI. SUPRRRIIZZZ.
-    KOMIK BIRI OLDUGUMU SOYLEMISTIM SADECE BAZEN DOZUNU AYARLAYAMIYORUM. OYUNDA BOL
-    SANS. DOSTUM EGER KURTULURSAN BENI ARAMAYI UNUTMA NUMARAMI YAZIP CEBINE KOYUCAM
-    BELKI SENLE TATILE GIDERIZ.\r\nSIMDI GELELIM OYUNA ONUNDE 52 KARTTAN OLUSAN BIR
-    ISKAMBIL DESTESI VAR. BU DESTE ICERSINDE 4 FARKLI TURDE 1 DEN 10 A KADAR OLAN
-    RAKAMLARI ICEREN KARTLAR BULUNMAKTA. BU KARTLARDAN ELINDE SADECE 4 ADET BULUNDURABILIRSIN
-    MERAK ETME NORMALDE BUNU YAPMAM YASAK AMA SENINLE OLAN DOSTLUGUMUZ ICIN 2 TANESINI
-    SANA BEN VERICEM GERI KALAN ICINDE SANA IPUCU VERICEM BUNU SUANA KADAR HICKIMSEYE
-    YAPMADIM O SEBEPLE LUTFEN BU SANSI BATIRMA. SANA SINEK 5 VE MACA 6 VERIYORUM.
-    HATTA VAZGECTIM BIR KART DAHA VERICEM ODA KUPA 8. SADECE BIR ADET KART SECMEN
-    LAZIM VE BU KARTIN TURU ONCEKI OYUNLARDA SANA VERILEN IPUCLARINDAN BIRINDE GIZLI
-    DEGERI ISE YUNAN ADALARINDAKI TATILI HATIRLAYARAK BULABILIRSIN BENCE AHBAP. BEN
-    HEMEN GELIYORUM ISKENDERSEPETINDEN YEMEK SOYLEMISTIM ONU ALMAM LAZIM KUSURA BAKMA
-    SABHATAN BERI YEMEK YEDIM. SEN SECIMINI YAPABILIRSIN DURUMA GORE BOLUSURUZ YEMEGI
-    DOSTUM. BOL SANS UMARIM KAZANIRSIN."
+  m_text: "Final Oyunu\r\nDostum, ger\xE7ekten buraya kadar dayanabilmeni beklemiyordum.
+    \u015Eaka \u015Faka sanan inanc\u0131m tamd\u0131, sadece senaryo gere\u011Fi
+    bu aptal repli\u011Fi s\xF6ylemem laz\u0131m. Kusura bakma.\r\nBence \u015Fu
+    zamana kadar senle fazlas\u0131yla iyi anla\u015Ft\u0131k. Dostum, e\u011Fer
+    kurtulursan beni unutma. Seninle son oyuna kadar geldik. Daha do\u011Frusu, sen
+    geldin. Ben maalesef her g\xFCn bu s\xFCreci tekrardan anlat\u0131yorum.\r\nBenim
+    ad\u0131ma \xFCz\xFClmene gerek yok. Maa\u015F\u0131 \xE7ok g\xFCzel ve \u015Firket
+    beni y\u0131lda bir kez bir haftal\u0131\u011F\u0131na Yunan Adalar\u0131'na
+    tatile g\xF6nderiyor. Bence \xE7o\u011Fu i\u015Ften g\xFCzel bir i\u015Fim var.
+    Bir de masa ba\u015F\u0131nda oyun geli\u015Ftirdi\u011Fini d\xFC\u015F\xFCn,
+    tasarla, senaryosunu yaz; ondan sonra bunlar\u0131 insanlara yay\u0131nla. Bence
+    \xE7ok zor i\u015F. Neyse, umar\u0131m daha iyi bir i\u015Fin vard\u0131r. Yoksa
+    \xFCz\xFClmene gerek yok, yanl\u0131\u015F se\xE7ene\u011Fi se\xE7men yeterli.\nTamam
+    dostum, sakin ol, ufak bir \u015Faka.\r\nGeldik son oyuna. Umar\u0131m \u015Fu
+    ana kadar dediklerimi dikkatlice okumu\u015Fsundur, \xE7\xFCnk\xFC bunu sana
+    \u015Fimdi s\xF6yl\xFCyorum ama bu oyunun cevab\u0131 o c\xFCmleler aras\u0131nda
+    gizliydi. S\xFCrpriizzz! Komik biri oldu\u011Fumu s\xF6ylemi\u015Ftim, sadece
+    bazen dozunu ayarlayam\u0131yorum. Oyunda bol \u015Fans.\r\nDostum, e\u011Fer
+    kurtulursan beni aramay\u0131 unutma. Numaram\u0131 yaz\u0131p cebine koyaca\u011F\u0131m,
+    belki senle tatile gideriz.\r\n\u015Eimdi gelelim oyuna. \xD6n\xFCnde 52 karttan
+    olu\u015Fan bir iskambil destesi var. Bu destede i\xE7erisinde 4 farkl\u0131
+    t\xFCrde 1'den 10'a kadar olan rakamlar\u0131 i\xE7eren kartlar bulunmakta. Bu
+    kartlardan elinde sadece 4 adet bulundurabilirsin. Merak etme, normalde bunu
+    yapmam yasak ama seninle olan dostlu\u011Fumuz i\xE7in 2 tanesini sana ben verece\u011Fim.
+    Geri kalan\u0131 i\xE7in de sana ipucu verece\u011Fim. Bunu \u015Fu ana kadar
+    hi\xE7 kimseye yapmad\u0131m, o sebep ile l\xFCtfen bu \u015Fans\u0131 bat\u0131rma.
+    Sana sinek 5 ve ma\xE7a 6 veriyorum. Hatta vazge\xE7tim, bir kart daha verece\u011Fim,
+    o da kupa 8. Sadece bir adet kart se\xE7men laz\u0131m ve bu kart\u0131n t\xFCr\xFC,
+    \xF6nceki oyunlarda sana verilen ipu\xE7lar\u0131ndan birinde gizli de\u011Feri
+    ile Yunan Adalar\u0131'ndaki tatili hat\u0131rlayarak bulabilirsin bence ahbap.
+    \r\nBen hemen geliyorum, \u0130skendersepeti'nden yemek s\xF6ylemi\u015Ftim,
+    onu almam laz\u0131m. Kusura bakma, sabah tan beri yemek yedim. Sen se\xE7imini
+    yapabilirsin, duruma g\xF6re b\xF6l\xFC\u015F\xFCr\xFCz yeme\u011Fi dostum. Bol
+    \u015Fans, umar\u0131m kazan\u0131rs\u0131n.\r\nIPUCU: SE\xC7MEN GEREKN KART
+    SEN\u0130N VE BU OYUNUN KADER\u0130N\u0130 BEL\u0130RLEYEB\u0130L\u0130R. YA
+    KADER\u0130N \u0130\xC7\u0130N SE\xC7\u0130M YAPARSIN YA DA KADER\u0130N SEN\u0130N
+    \u0130\xC7\u0130N B\u0130R KART SE\xC7ER. UNUTMA \u015EANSINA G\xDCLEN, KADER\u0130NE
+    K\xDCSER\u2026\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
   m_sharedMaterial: {fileID: -6348833715751618265, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
@@ -353,14 +364,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -389,7 +400,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 26.802124, y: 61.979614, z: 407.0559, w: 25.126892}
+  m_margin: {x: 26.802124, y: -110.68976, z: -309.86597, w: 25.126892}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -495,6 +506,104 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 682392770}
   m_CullTransparentMesh: 1
+--- !u!1 &940326453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940326454}
+  - component: {fileID: 940326457}
+  - component: {fileID: 940326456}
+  - component: {fileID: 940326455}
+  m_Layer: 5
+  m_Name: Frame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &940326454
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940326453}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5.2146297, y: 4.3020697, z: 5.2146297}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1932952736}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -223, y: 119}
+  m_SizeDelta: {x: 32, y: 64}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &940326455
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940326453}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4b50d095bd8f18149b111c6af6cdd99f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &940326456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940326453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1042092784, guid: e6bcc7736fa5b974daf546f4ac16197a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &940326457
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940326453}
+  m_CullTransparentMesh: 1
 --- !u!1 &1651156619
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +701,7 @@ RectTransform:
   m_GameObject: {fileID: 1749682042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6324655, y: 1.9875, z: 1}
+  m_LocalScale: {x: 1.409386, y: 4.428945, z: 2.2284}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1932952736}
@@ -600,7 +709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354, y: -260}
+  m_AnchoredPosition: {x: 749, y: -395}
   m_SizeDelta: {x: 178.2808, y: 46.1301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1749682044
@@ -805,7 +914,7 @@ RectTransform:
   - {fileID: 682392771}
   - {fileID: 205189983}
   - {fileID: 1749682043}
-  - {fileID: 2045611039}
+  - {fileID: 940326454}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -814,82 +923,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &2045611038
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2045611039}
-  - component: {fileID: 2045611041}
-  - component: {fileID: 2045611040}
-  m_Layer: 5
-  m_Name: Frame
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2045611039
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045611038}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.214631, y: 4.3020706, z: 5.214631}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1932952736}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -351, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2045611040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045611038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5cf1629148782ea43b656e78844324b9, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2045611041
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045611038}
-  m_CullTransparentMesh: 1
 --- !u!1 &2080257894
 GameObject:
   m_ObjectHideFlags: 0
