@@ -272,7 +272,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1932952736}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -378,7 +378,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162505372}
   m_CullTransparentMesh: 1
---- !u!1 &205189982
+--- !u!1 &319756570
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -386,10 +386,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 205189983}
-  - component: {fileID: 205189985}
-  - component: {fileID: 205189984}
-  - component: {fileID: 205189986}
+  - component: {fileID: 319756574}
+  - component: {fileID: 319756573}
+  - component: {fileID: 319756572}
+  - component: {fileID: 319756571}
   m_Layer: 5
   m_Name: Paragraph
   m_TagString: Untagged
@@ -397,33 +397,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &205189983
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205189982}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.58193624, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1932952736}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 647.9999, y: 103}
-  m_SizeDelta: {x: 1175, y: 644}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &205189984
+--- !u!114 &319756571
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205189982}
+  m_GameObject: {fileID: 319756570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd27b3dc8603ab41b439bb55ae0db80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeStart: 0
+  timeBtwChars: 0.01
+  leadingChar: 
+  leadingCharBeforeDelay: 0
+--- !u!114 &319756572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319756570}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -437,18 +433,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Oyun 1\r\n\r\nMerhaba, \xF6nceki gibi bizden korkmana gerek yok \xE7\xFCnk\xFC
-    seninle gayet e\u011Flenceli bir oyun oynayaca\u011F\u0131z. Kurallar\u0131 zaten
-    biliyorsun, unutma kurtulu\u015Fun i\xE7in \xF6demen gereken ufak bir bedel var.
-    Sana daha \xF6nce bahsetti\u011Fim gibi bu oyundan ba\u015Far\u0131l\u0131 \xE7\u0131kman
-    laz\u0131m dostum. Asl\u0131nda hepsi ufak bir bilmece ama yine de \u015Fans\u0131n
-    olmad\u0131\u011F\u0131 bir yerde kaderden bahsedemeyiz. :)\r\n\r\n\xD6n\xFCndeki
-    4 barda\u011F\u0131n 3'\xFCnde sadece ve sadece su var, ancak 1 tanesinde saniyeler
-    i\xE7inde g\xF6z\xFCne perde indirecek bir zehir bulunuyor. Se\xE7, be\u011Fen,
-    al ahbap, hepsi m\xFCesseseden.\r\n\n\r\n\u0130pucu 1: Ge\xE7en arkada\u015Flar\u0131m
-    bana do\u011Fum g\xFCn\xFCmde ye\u015Fil bir kazak ald\u0131lar ve bir arkada\u015F\u0131m
-    bana kaza\u011F\u0131 giydi\u011Fimde \xE7imene benzedi\u011Fimi s\xF6yledi.
-    Kendisi \u015Fu an ye\u015Fil kaza\u011F\u0131mla birlikte yer alt\u0131nda dinleniyor.\r\n"
+  m_text: "OYUN HAKKINDA\r\n\nOyunumuza kat\u0131ld\u0131\u011F\u0131n\u0131z i\xE7in
+    te\u015Fekk\xFCr ederiz. \u015Eimdi, sizi etkileyici bir maceraya davet ediyoruz.
+    Ana karakterimiz, kimli\u011Fi belirsiz, psikopat bir ekip taraf\u0131ndan ka\xE7\u0131r\u0131l\u0131yor.
+    Ancak, bu ekip bize kurtulu\u015Fun sadece bir dizi oyun oynamaktan ge\xE7ti\u011Fini
+    s\xF6yl\xFCyor.\r\n\r\nOyun s\u0131ras\u0131nda bize baz\u0131 ipu\xE7lar\u0131
+    verebilirler, ancak bu ipu\xE7lar\u0131n\u0131n her zaman do\u011Fru olmad\u0131\u011F\u0131n\u0131
+    unutmamak \xF6nemli. Her oyunun bir sonucu vard\u0131r ve bu sonuca ula\u015Fmak
+    i\xE7in ya \xF6l\xFCmle y\xFCzle\u015Fece\u011Fiz ya da son oyunu ba\u015Far\u0131yla
+    tamamlayana kadar m\xFCcadele edece\u011Fiz.\r\n\r\nSon oyuna geldi\u011Fimizde,
+    ba\u015Far\u0131yla a\u015Farsak bize kurtulu\u015F bileti verilecek. Ancak,
+    bu bileti elde etmek hi\xE7 de kolay olmayacak. S\xFCr\xFCkleyici bulmacalar,
+    zorlu g\xF6revler ve belirsizlikle dolu bir yolculuk bizi bekliyor.\r\n\r\nOyunun
+    gizemini \xE7\xF6zerken dikkatli olmal\u0131, ipu\xE7lar\u0131n\u0131 do\u011Fru
+    bir \u015Fekilde de\u011Ferlendirmeli ve her zorlu\u011Fun \xFCstesinden gelmeye
+    \xE7al\u0131\u015Fmal\u0131y\u0131z. Unutmay\u0131n, her se\xE7imimiz sonu\xE7lar\u0131
+    etkileyecek ve bizi ya \xF6zg\xFCrl\xFC\u011Fe kavu\u015Fturacak ya da karanl\u0131k
+    bir kaderle y\xFCzle\u015Ftirecek.\r\n\r\nOyunumuza ho\u015F geldiniz ve unutmay\u0131n,
+    ger\xE7ek kurtulu\u015F sadece son oyunu ba\u015Far\u0131yla tamamlayana verilecek!
+    \u0130yi \u015Fanslar!\r\n\r\n\u015Eans\u0131na g\xFClenler, kaderine k\xFCser\u2026\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
   m_sharedMaterial: {fileID: -6348833715751618265, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
@@ -475,8 +478,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -511,36 +514,40 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 57.667175, y: 72.73366, z: 116.402466, w: -638.7534}
+  m_margin: {x: -324.83362, y: 41.31021, z: -215.80347, w: 25.126892}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &205189985
+--- !u!222 &319756573
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205189982}
+  m_GameObject: {fileID: 319756570}
   m_CullTransparentMesh: 1
---- !u!114 &205189986
-MonoBehaviour:
+--- !u!224 &319756574
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205189982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cd27b3dc8603ab41b439bb55ae0db80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayBeforeStart: 0
-  timeBtwChars: 0.01
-  leadingChar: 
-  leadingCharBeforeDelay: 0
+  m_GameObject: {fileID: 319756570}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.62509996, y: 0.88545996, z: 1.2298}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 445, y: 387}
+  m_SizeDelta: {x: 2137.099, y: 854.2906}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &682392770
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,7 +851,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1932952736}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -922,7 +929,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1932952736}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -1129,11 +1136,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 682392771}
-  - {fileID: 205189983}
   - {fileID: 1749682043}
   - {fileID: 2045611039}
   - {fileID: 1741946844}
   - {fileID: 162505373}
+  - {fileID: 2072583400}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1174,7 +1181,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1932952736}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1368,3 +1375,166 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2072583399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2072583400}
+  - component: {fileID: 2072583403}
+  - component: {fileID: 2072583402}
+  - component: {fileID: 2072583401}
+  m_Layer: 5
+  m_Name: Paragraph (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2072583400
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072583399}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.62509996, y: 0.88545996, z: 1.2298}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1932952736}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -338.2616, y: -7.5307}
+  m_SizeDelta: {x: 2536.1982, y: 930.5012}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2072583401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072583399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd27b3dc8603ab41b439bb55ae0db80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeStart: 0
+  timeBtwChars: 0.01
+  leadingChar: 
+  leadingCharBeforeDelay: 0
+--- !u!114 &2072583402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072583399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Oyun 1\r\n\r\nMerhaba, \xF6nceki gibi bizden korkmana gerek yok \xE7\xFCnk\xFC
+    seninle gayet e\u011Flenceli bir oyun oynayaca\u011F\u0131z. Kurallar\u0131 zaten
+    biliyorsun, unutma kurtulu\u015Fun i\xE7in \xF6demen gereken ufak bir bedel var.
+    Sana daha \xF6nce bahsetti\u011Fim gibi bu oyundan ba\u015Far\u0131l\u0131 \xE7\u0131kman
+    laz\u0131m dostum. Asl\u0131nda hepsi ufak bir bilmece ama yine de \u015Fans\u0131n
+    olmad\u0131\u011F\u0131 bir yerde kaderden bahsedemeyiz. :)\r\n\r\n\xD6n\xFCndeki
+    4 barda\u011F\u0131n 3'\xFCnde sadece ve sadece su var, ancak 1 tanesinde saniyeler
+    i\xE7inde g\xF6z\xFCne perde indirecek bir zehir bulunuyor. Se\xE7, be\u011Fen,
+    al ahbap, hepsi m\xFCesseseden.\r\n\n\r\n\u0130pucu 1: Ge\xE7en arkada\u015Flar\u0131m
+    bana do\u011Fum g\xFCn\xFCmde ye\u015Fil bir kazak ald\u0131lar ve bir arkada\u015F\u0131m
+    bana kaza\u011F\u0131 giydi\u011Fimde \xE7imene benzedi\u011Fimi s\xF6yledi.
+    Kendisi \u015Fu an ye\u015Fil kaza\u011F\u0131mla birlikte yer alt\u0131nda dinleniyor.\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
+  m_sharedMaterial: {fileID: -6348833715751618265, guid: 696bd920c013fbc42ab215eeec9a59ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 35
+  m_fontSizeBase: 35
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 479.9068, y: 41.31021, z: 258.53522, w: 25.126892}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2072583403
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072583399}
+  m_CullTransparentMesh: 1
