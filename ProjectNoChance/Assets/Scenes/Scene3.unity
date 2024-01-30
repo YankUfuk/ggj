@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4779d5345a47d1a4d821b00ee631e4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Scene4
+  sceneName: GameOver
 --- !u!114 &1535048225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4779d5345a47d1a4d821b00ee631e4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GameOver
+  sceneName: Scene4
 --- !u!114 &1541477144
 MonoBehaviour:
   m_ObjectHideFlags: 0
